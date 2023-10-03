@@ -2,6 +2,7 @@
 from string import digits,punctuation,ascii_lowercase,ascii_uppercase
 import random
 import re
+gt
 
 def password_generator(LENGTH=10,Upper_Case=True,Punct=True,Digits=True):
     """  
@@ -88,3 +89,4 @@ def requirements_check(password,Upper_Case,Punct,Digits):
         if not match:
             return False
     return True
+#print("this is a test")
